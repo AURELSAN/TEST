@@ -4,8 +4,8 @@
 */
 
 document.write ("This is remote text via xss.js located at github " + document.cookie);
-alert ("This is remote text via xss.js located at xss.rocks " + document.cookie);
-confirm ("This is remote text via xss.js located at xss.rocks " + document.cookie);
+alert ("This is remote text via xss.js located at github " + document.cookie);
+confirm ("This is remote text via xss.js located at github " + document.cookie);
 
 /*
 function msg(){
